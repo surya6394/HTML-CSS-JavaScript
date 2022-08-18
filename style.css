@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital@1&display=swap');
+
+*{
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header{
+  background-color: #2d3436;
+  padding: 0.8em 15em 0.9em 15em; 
+}
+
+.logo a{
+  text-decoration: none;
+  color: #b2bec3;
+  font-size: 33px;
+}
+
+.logo .site-title{
+  font-size: 15px;
+  color: #b2bec3;
+}
+
+/* .search{
+  float: right;
+  position: relative;
+  padding-top: -3em;
+} */
+
+.search input[type=text]{
+  width:200px;
+  height:25px;
+  border: 1px solid #b2bec3;
+  background-color: black;
+  margin-right: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+   
+.search{
+  float:right;
+  margin: -2em;
+}
+   
+.search button{
+  background-color: #e1b12c;
+  color: #f2f2f2;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 32px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+nav ul{
+  margin-top: 0.5em;
+  background-color: black;
+}
+
+nav ul li{
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0.9em 0 0.9em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 0 0.7em;
+  color: #b2bec3;
+  font-size: 15px;
+}
+
+.container{
+  padding: 0.5em 15em 0.5em 15em;
+}
+
+.first .split {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.first .left {
+  width: 30%;
+  height: 40vh;
+  background-color: #464646;
+}
+
+/* Control the right side */
+.first .right {
+  display: flex;
+  position: relative;
+  float: right;
+  margin-top: -18.05em;
+  width: 70%;
+  height: 40vh;
+  background-color: #333333;
+}
+
+/* If you want the content centered horizontally and vertically */
+.first .centered {
+  position: absolute;
+
+}
+
+.first .left h2{  
+  font-family: 'Charis SIL', serif;
+  font-size: 40px;
+  padding-left: 15px;
+  margin-top: -15px;
+  padding-bottom: 0.3em;
+  line-height: 1;
+  color: #989898;
+}
+
+.first .left p{
+  padding: 0 25px 0 25px;
+  color: #7f7f7f;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.3;
+}
+
+.first .left a{
+  text-decoration: none;
+  float: right;
+  padding: 1.8em 0 0 0;
+  margin-right: 20px;
+  color: #a8691e;
+}
+
+.first .left a span{
+  font-size: 10px;
+}
+
+.first .right h2{
+  font-size: 30px;
+  margin: 3.2em 10em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #e5e5e5;
+}
+
+.second .left{
+  width: 50%;
+  height: 40vh;
+}
+
+.second .left h1{
+  color: #a4a3a4;
+  font-family: 'Charis SIL', serif;
+  font-size: 25px;
+  margin-top: 0.7em;
+  margin-bottom: 0.4em;
+}
+
+.second .left p{
+  color: #b8b5b3;
+  margin-bottom: 0.8em;
+}
+
+.second .left a{
+  text-decoration: none;
+  color: #a8691e;
+}
+
+.second .right .gallery{
+  display: flex;
+  position: relative;
+  float: right;
+  margin-top: -17em;
+}
+
+.second .right img{
+  margin-left: 1.7em;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background: whitesmoke;
+  border-radius: 2px;
+}
+
+.second .right a{
+  text-decoration: none;
+  color: #a8691e;
+  display: flex;
+  float: right;
+  margin-top: -5em;
+  margin-right: 70px;
+  font-weight: bold;
+}
+
+.second .right span{
+  font-size: 10px;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+.footer{
+  margin-top: 3.2em;
+  margin-bottom: 2em;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer .half{
+  width: 50%;
+  display: flex;
+}
+
+.footer .half .col{
+  flex-basis: 50%;
+  padding: 10px;
+}
+
+.footer .col1{
+  width: 50%;
+}
+
+.footer .col1 p{
+  width: 63%;
+  float: right;
+}
+
+.footer .col h3{
+  margin-bottom: 1.5em;
+  color: #a4a3a4;
+}
+
+.footer .col h4{
+  color: #a4a3a4;
+}
+
+.footer .address{
+  margin-bottom: 0.7em;
+}
+
+.footer .address span{
+  font-size: 11px;
+}
+
+.footer .address a{
+  text-decoration: none;
+  color: #a8691e;
+}
+
+.footer .address p{
+  color: #b8b5b3;
+}
+
+.footer .col p{
+  /* padding-right: 20px; */
+  color: #b8b5b3;
+}
+
+.footer .col .more a{
+  text-decoration: none;
+  float: left;
+  padding: 1.8em 0 0 0;
+  color: #a8691e;
+}
+
+.footer .col .more span{
+  font-size: 10px;
+}
+
+.footer .col ul{
+  margin-left: -2.3em;
+}
+
+.footer .col ul span{
+  font-size: 12px;
+  color: #b8b5b3;
+  margin-top: 3px;
+  padding-right: 3px;
+  font-weight: bolder;
+}
+
+.footer .col li{
+  display: flex;
+  border-bottom: 1px solid #b8b5b3;
+  padding-top: 0.7em;
+}
+
+
+.footer .col li a{
+  text-decoration: none;
+  color: #a8691e;
+  margin-bottom: 0.6em;
+}
+
+.footer .col1 h3{
+  margin-top: 0.55em;
+  margin-bottom: 1.5em;
+  color: #a4a3a4;
+  margin-left: 1.5em;
+}
+
+.footer .col1 img{
+  margin-left: 1.7em;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background: whitesmoke;
+  border-radius: 2px;
+}
+
+.footer .col1 p{
+  color: #b8b5b3;
+}
+
+.footer .col1 a{
+  text-decoration: none;
+  float: right;
+  padding: 1.8em 0 0 0;
+  color: #a8691e;
+}
+
+.footer .col1 a span{
+  font-size: 10px;
+}
+
+footer{
+  background-color: #232323;
+  height: 7vh;
+  display: flex;
+  flex-basis: 50%;
+  color: #b8b5b3;
+}
+
+footer .copyright{
+  display: flex;
+  position: relative;
+  width: 50%;
+  margin-left: 15.5em;
+  padding-top: 0.8em;
+}
+
+footer .temp{
+  margin-left: 5em;
+  padding-top: 0.8em;
+}
+
